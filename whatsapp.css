@@ -1,0 +1,37 @@
+
+        .floating-button {
+            width: 75px;
+            height: 60px;
+            border-radius: 50%;
+            background: transparent;
+            position: fixed;
+            bottom: 60px !important;
+            right: 80px;
+            cursor: pointer;
+            z-index: 600;
+            text-align: center;
+        }
+
+        .tl-adiltional-box h4 {
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 18px;
+        }
+
+        .tl-adiltional-box h4 .fa {
+            font-size: 14px;
+            margin-right: 12px;
+        }
+
+        .buttonContact{
+            border-radius: 30px !important;
+            padding: 6px 12px !important;
+            font-size: 14px !important;
+            border-color: #DF1F25;
+        }
+
+        .buttonContact:hover{
+            background: #fa454b !important;
+            border-color: #fa454b !important;
+        }
+
