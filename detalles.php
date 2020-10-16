@@ -24,7 +24,7 @@ $newToken = generateFormToken('form1');
     <meta property="og:type" content="website">
     <meta property="og:title" content="Rafael Angel | Detalles" >
     <meta property="og:url" content="https://rafaelangel.com.co/detalles.php?id=<?php echo $_GET["id"] ?>">
-    <meta property="og:image" itemprop="image" content="http://www.dexcon.co/RafaelAngel/images/logoR.png">
+    <meta property="og:image" itemprop="image" content="https://rafaelangel.com.co/images/logoR.png">
     <meta property="og:description" content="Mira este increible Inmueble" >
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="300">
@@ -33,7 +33,7 @@ $newToken = generateFormToken('form1');
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Rafael Angel" >
-    <meta name="twitter:image" content="http://dexcon.co/RafaelAngel/images/logoR.png">
+    <meta name="twitter:image" content="https://rafaelangel.com.co/images/logoR.png">
     <meta name="twitter:description" content="Mira este increible Inmueble" >
     <!-- fin de datos para compartir por twitter -->
 

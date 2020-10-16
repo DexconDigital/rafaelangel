@@ -2,7 +2,7 @@
 // exit("Mantenimiento");
 // error_reporting(E_ALL ^ E_NOTICE);
 // ini_set('display_errors', '1');
-require 'variables/metaetiquetas.php';
+
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
@@ -14,6 +14,24 @@ require 'variables/metaetiquetas.php';
 <!--<![endif]-->
 
 <head>
+	<!-- Smartlook -->
+	<script>
+		window.smartlook || (function(d) {
+			var o = smartlook = function() {
+					o.api.push(arguments)
+				},
+				h = d.getElementsByTagName('head')[0];
+			var c = d.createElement('script');
+			o.api = new Array();
+			c.async = true;
+			c.type = 'text/javascript';
+			c.charset = 'utf-8';
+			c.src = 'https://rec.smartlook.com/recorder.js';
+			h.appendChild(c);
+		})(document);
+		smartlook('init', 'd3b3986f26228c8f065e9ab1507bf0b671f827fb');
+	</script>
+	<!-- Smartlook -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,24 +39,25 @@ require 'variables/metaetiquetas.php';
 	<meta name="author" content="">
 	<title>Rafael Angel</title>
 	<!-- Datos para compartir por facebook -->
-	<meta property="og:image" itemprop="image" content="http://dexcon.co/RafaelAngel/images/logoR.png">
+	<meta property="og:image" itemprop="image" content="https://rafaelangel.com.co/images/logoR.png">
 	<meta property="og:title" content="Rafael Angel">
-	<meta property="og:url" content="http://www.dexcon.co/RafaelAngel/">
+	<meta property="og:url" content="https://rafaelangel.com.co">
 	<meta property="og:description" content="Llevamos más de seis décadas dedicados al sector inmobiliario, y entendemos que el éxito de nuestra actividad se construye sobre el ejercicio de lograr la plena satisfacción de nuestros clientes, garantizar la confianza y la tranquilidad en todos los negocios en los que participamos, y cultivar las relaciones por encima de las transacciones.">
+	<!-- fin de datos para compartir por facebook -->
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="Rafael Angel">
-	<meta name="twitter:image" content="http://dexcon.co/RafaelAngel/images/logoR.png">
+	<meta name="twitter:image" content="https://rafaelangel.com.co/images/logoR.png">
 	<meta name="twitter:description" content="Llevamos más de seis décadas dedicados al sector inmobiliario, y entendemos que el éxito de nuestra actividad se construye sobre el ejercicio de lograr la plena satisfacción de nuestros clientes, garantizar la confianza y la tranquilidad en todos los negocios en los que participamos, y cultivar las relaciones por encima de las transacciones.">
 	<!-- fin de datos para compartir por twitter -->
 	<!-- Para whatsapp -->
-	<meta property="og:image" content="http://dexcon.co/RafaelAngel/images/logoR.png" />
-	<meta property="og:image:secure_url" content="http://www.dexcon.co/RafaelAngel/" />
+	<meta property="og:image" content="https://rafaelangel.com.co/images/logoR.png" />
+	<meta property="og:image:secure_url" content="https://rafaelangel.com.co" />
 	<meta property="og:image:type" content="image/png" />
 	<meta property="og:image:width" content="300" />
 	<meta property="og:image:height" content="300" />
 	<meta property="og:description" content="Llevamos mas de seis decadas dedicados al sector inmobiliario, y entendemos que el exito de nuestra actividad se construye sobre el ejercicio de lograr la plena satisfaccion de nuestros clientes, garantizar la confianza y la tranquilidad en todos los negocios en los que participamos, y cultivar las relaciones por encima de las transacciones.">
-	<!-- Para whatsapp -->
+	<!-- fin Para whatsapp -->
 	<link rel="shortcut icon" href="images/favicon.png">
 	<link href="libraries/bootstrap/bootstrap.min.css" rel="stylesheet" />
 	<link href="css/whatsapp.css" rel="stylesheet" />
